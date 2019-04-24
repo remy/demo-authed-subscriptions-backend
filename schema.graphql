@@ -1,0 +1,17 @@
+type User {
+  username: String!
+  password: String!
+  count: Count!
+}
+
+type Count {
+  n: Int!
+}
+
+type Query {
+  me: User!
+}
+
+type Mutation {
+  bearerToken(username: String! password: String!): String!
+}

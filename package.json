@@ -1,0 +1,14 @@
+{
+  "name": "authed-subscriptions-backend",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "graphql-yoga": "1.17.4"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
